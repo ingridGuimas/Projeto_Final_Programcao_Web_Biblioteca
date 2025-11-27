@@ -74,6 +74,7 @@ O fluxo geral funciona assim:
    - ?page=usuario-cadastrar
    - ?page=livro-listar
    - ?page=reserva-editar
+   
 4. O arquivo correspondente é carregado dinamicamente.
    
 5. Ao enviar um formulário, os dados são enviados via POST para um arquivo “salvar”, que:
@@ -82,7 +83,7 @@ O fluxo geral funciona assim:
    - insere/edita/remove no banco
    - retorna mensagem
    - redireciona para a listagem
-   - 
+   
 Esse modelo permite um fluxo simples, modular e fácil de manter.
 
 ---
